@@ -43,7 +43,7 @@ default_args = {
 }
 
 dag = DAG(
-    'keren',
+    'capstone',
     default_args=default_args,
     description='How to use the Python Operator?',
     schedule_interval="@hourly",
